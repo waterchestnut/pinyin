@@ -12,6 +12,8 @@ import pinyin from 'js-pinyin'
 ```js
 let pinyin = require('js-pinyin');
 
+pinyin.setOptions({checkPolyphone: false, charCase: 0});
+
 console.log(pinyin.getFullChars('管理员'));
 console.log(pinyin.getCamelChars('管理员'));
 console.log(pinyin.getCamelChars('1234'));
