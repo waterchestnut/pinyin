@@ -1,0 +1,27 @@
+{
+  "name": "waterchestnut.pinyin",
+  "version": "0.1.0",
+  "description": "汉字转换拼音，需要es6语法(let、class等)支持，不依赖其他组件",
+  "private": false,
+  "scripts": {
+    "start": "node ./index",
+    "test": "node ./index"
+  },
+  "keywords": [
+    "pinyin",
+    "拼音",
+    "首字母",
+    "汉语拼音",
+    "汉字",
+    "es6"
+  ],
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-file-modify": "^0.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/waterchestnut/pinyin.git"
+  },
+  "license": "MIT License"
+}
