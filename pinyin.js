@@ -906,22 +906,22 @@ class Pinyin {
         let result = [''];
         for (let i = 0, len = chars.length; i < len; i++) {
             let str = chars[i];
-            let strlen = str.length;
-            if (strlen == 1) {
+            let strLen = str.length;
+            if (strLen == 1) {
                 for (let j = 0; j < result.length; j++) {
-                    result[k] += str;
+                    result[j] += str;
                 }
             } else {
                 let swap1 = result.slice(0);
                 result = [];
-                for (let j = 0; j < strlen; j++) {
-                    //复制一个相同的arrRslt
+                for (let j = 0; j < strLen; j++) {
+                    //复制一个相同的arrResult
                     let swap2 = swap1.slice(0);
                     //把当前字符str[k]添加到每个元素末尾
                     for (let k = 0; k < swap2.length; k++) {
                         swap2[k] += str.charAt(j);
                     }
-                    //把复制并修改后的数组连接到arrRslt上
+                    //把复制并修改后的数组连接到arrResult上
                     result = result.concat(swap2);
                 }
             }
