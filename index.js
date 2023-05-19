@@ -5,7 +5,7 @@
  */
 'use strict';
 
-let pinyin = new (require('./pinyin'))({charCase:0});
+let pinyin = new (require('./dist/pinyin'))({charCase:0});
 /*console.log(pinyin.getFullChars('管理员'))
 console.log(pinyin.getCamelChars('管理员'))
 console.log(pinyin.getCamelChars('1234'))
