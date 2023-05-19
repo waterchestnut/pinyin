@@ -16,8 +16,7 @@
     "es6"
   ],
   "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-file-modify": "^0.2.1"
+
   },
   "repository": {
     "type": "git",
