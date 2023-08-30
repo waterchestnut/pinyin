@@ -24,5 +24,8 @@
     "type": "git",
     "url": "git://github.com/waterchestnut/pinyin.git"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org "
+  },
   "license": "MIT License"
 }
