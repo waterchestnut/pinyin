@@ -21,7 +21,7 @@ interface PinyinOptions {
 /**
  * 汉字拼音转换
  */
-class Pinyin {
+declare class Pinyin {
   constructor(options?: PinyinOptions)
 
   /**
@@ -43,5 +43,5 @@ class Pinyin {
   getFullChars(str: string): string
 }
 
-const pinyin: Pinyin
+declare const pinyin: Pinyin
 export default pinyin
