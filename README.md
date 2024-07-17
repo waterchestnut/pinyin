@@ -14,8 +14,13 @@ let pinyin = require('js-pinyin');
 
 pinyin.setOptions({checkPolyphone: false, charCase: 0});
 
-console.log(pinyin.getFullChars('管理员'));
-console.log(pinyin.getCamelChars('管理员'));
-console.log(pinyin.getCamelChars('1234'));
-console.log(pinyin.getCamelChars('english'));
+console.log(pinyin.getFullChars('管理员'))
+console.log(pinyin.getCamelChars('管理员'))
+console.log(pinyin.getCamelChars('1234'))
+console.log(pinyin.getCamelChars('english'))
+console.log(pinyin.getCamelChars('昕'))
+console.log(pinyin.getCamelChars('佛'))
+console.log(pinyin.getFullChars('佛'))
+console.log(pinyin.getFullChars('凃一二'))
+console.log(pinyin.getCamelChars('凃一二'))
 ```
